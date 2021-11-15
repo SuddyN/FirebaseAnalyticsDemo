@@ -14,18 +14,16 @@ using UnityEngine.UI;
 using System.Collections;
 
 
-public class GameOverPopUp : MonoBehaviour {
+public class GameOverPopUp: MonoBehaviour {
 
     public Text gameOverScore;
-    
-    void OnEnable()
-    {
+
+    void OnEnable() {
         gameOverScore.text = Managers.Score.currentScore.ToString();
         Managers.UI.panel.SetActive(true);
     }
 
-    public void BackToMainMenu()
-    {
+    public void BackToMainMenu() {
         Managers.Grid.ClearBoard();
         Managers.Audio.PlayUIClick();
         Managers.UI.panel.SetActive(false);

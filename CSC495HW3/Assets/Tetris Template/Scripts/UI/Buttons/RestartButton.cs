@@ -11,11 +11,12 @@
 
 using UnityEngine;
 using System.Collections;
+using Firebase;
+using Firebase.Analytics;
 
-public class RestartButton : MonoBehaviour {
+public class RestartButton: MonoBehaviour {
 
-    public void OnClickRestartButton()
-    {
+    public void OnClickRestartButton() {
         Managers.Audio.PlayUIClick();
         Managers.Grid.ClearBoard();
         Managers.Game.isGameActive = false;

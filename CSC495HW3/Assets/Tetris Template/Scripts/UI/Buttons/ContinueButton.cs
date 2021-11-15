@@ -11,11 +11,12 @@
 
 using UnityEngine;
 using System.Collections;
+using Firebase;
+using Firebase.Analytics;
 
-public class ContinueButton : MonoBehaviour {
+public class ContinueButton: MonoBehaviour {
 
-    public void OnClickContinueButton()
-    {
+    public void OnClickContinueButton() {
         Managers.Audio.PlayUIClick();
         Managers.Game.SetState(typeof(GamePlayState));
     }
