@@ -423,4 +423,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationPivot: {fileID: 4000011453353334}
   transitionInterval: 0.8
-  fastTransitionInterval: 0.1
+  fastTransitionInterval: 0.01

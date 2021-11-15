@@ -341,7 +341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationPivot: {fileID: 4000013048453682}
   transitionInterval: 0.8
-  fastTransitionInterval: 0.1
+  fastTransitionInterval: 0.01
 --- !u!1 &1000013671966424
 GameObject:
   m_ObjectHideFlags: 0

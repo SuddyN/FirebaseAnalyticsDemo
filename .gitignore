@@ -69,3 +69,6 @@
 # Temporary auto-generated Android Assets
 /CSC495HW3/[Aa]ssets/[Ss]treamingAssets/aa.meta
 /CSC495HW3/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Firebase assets
+/CSC495HW3/[Aa]ssets/[Ff]irebase/
