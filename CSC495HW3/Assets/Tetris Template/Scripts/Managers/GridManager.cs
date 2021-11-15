@@ -60,6 +60,7 @@ public class GridManager: MonoBehaviour {
         for (int x = 0; x < 10; ++x)
             if (gameGridcol[x].row[y] == null)
                 return false;
+        // Log RowCleared event with Firebase
         FirebaseAnalytics.LogEvent("RowCleared");
         return true;
     }
